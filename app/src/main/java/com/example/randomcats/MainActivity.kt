@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
                 .load(url)
                 .networkPolicy(NetworkPolicy.NO_CACHE)
                 .memoryPolicy(MemoryPolicy.NO_CACHE)
+                .placeholder(R.drawable.progress_animation)
                 .into(catImage)
         }
     }
